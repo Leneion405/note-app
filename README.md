@@ -50,11 +50,14 @@ A full-stack note-taking application built with React, Express, and MongoDB.
 
 3. Create .env file with:
    MONGODB_URI=mongodb://localhost:27017/notes-app
+   
    JWT_SECRET=your_secret_key
+   
    PORT=5000
+   
    NODE_ENV=development
 
-4. Start backend:
+5. Start backend:
    npm run dev:watch
 
 ### Frontend Setup
@@ -70,26 +73,6 @@ A full-stack note-taking application built with React, Express, and MongoDB.
 
 4. Open browser at http://localhost:5173
 
-## Project Structure
-
-note-app/
-├── note-app-frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── utils/
-│   │   └── types/
-│   ├── package.json
-│   └── vite.config.ts
-├── note-app-backend/
-│   ├── src/
-│   │   ├── config/
-│   │   ├── routes/
-│   │   ├── models/
-│   │   └── middleware/
-│   ├── package.json
-│   └── .env
-└── README.md
 
 ## Usage
 
