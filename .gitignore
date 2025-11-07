@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+.npm
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Build
+dist/
+build/
+out/
+.cache/
+
+# Dependencies
+package-lock.json
+yarn.lock
+
+# Vite
+.vite/
+
+# Testing
+coverage/
+.nyc_output/
