@@ -52,8 +52,11 @@ npm install
 3. Create a `.env` file with the following variables:
 
 MONGODB_URI=mongodb://localhost:27017/notes-app
+
 JWT_SECRET=your_secret_key
+
 PORT=5000
+
 NODE_ENV=development
 
 4. Start the development server:
