@@ -61,8 +61,6 @@ NODE_ENV=development
 
 4. Start the development server:
 
-4. Start the development server:
-
 npm run dev:watch
 
 
