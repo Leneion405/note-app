@@ -4,15 +4,14 @@ A full-stack note-taking application built with React, Express, and MongoDB.
 
 ## Features
 
-- User Authentication (Register/Login with JWT)
-- Create, Read, Update, Delete Notes
-- Beautiful Responsive UI
-- Real-time Form Validation
-- Toast Notifications
-- Confirmation Dialogs
-- Professional Icons
-- Fast Development with Vite
-- Full TypeScript Support
+- User authentication with JWT (Register/Login)
+- Create, read, update, and delete notes
+- Responsive and intuitive UI
+- Real-time form validation
+- Toast notifications and confirmation dialogs
+- Professional icon library
+- Built with Vite for fast development
+- Full TypeScript support
 
 ## Tech Stack
 
@@ -35,53 +34,60 @@ A full-stack note-taking application built with React, Express, and MongoDB.
 ## Getting Started
 
 ### Prerequisites
-- Node.js v16+
+- Node.js v16 or higher
 - MongoDB
 - Git
 - npm
 
 ### Backend Setup
 
-1. Navigate to backend folder:
-   cd note-app-backend
+1. Navigate to the backend folder:
+
+cd note-app-backend
 
 2. Install dependencies:
 
-   npm install
+npm install
 
-4. Create .env file with:
-   
-   MONGODB_URI=mongodb://localhost:27017/notes-app
-   
-   JWT_SECRET=your_secret_key
-   
-   PORT=5000
-   
-   NODE_ENV=development
+3. Create a `.env` file with the following variables:
 
-5. Start backend:
-   npm run dev:watch
+MONGODB_URI=mongodb://localhost:27017/notes-app
+JWT_SECRET=your_secret_key
+PORT=5000
+NODE_ENV=development
+
+4. Start the development server:
+
+4. Start the development server:
+
+npm run dev:watch
+
 
 ### Frontend Setup
 
-1. Navigate to frontend folder:
-   cd note-app-frontend
+1. Navigate to the frontend folder:
+
+cd note-app-frontend
+
 
 2. Install dependencies:
-   npm install
 
-3. Start development server:
-   npm run dev
+npm install
 
-4. Open browser at http://localhost:5173
 
+3. Start the development server:
+
+npm run dev
+
+
+4. Open your browser and navigate to `http://localhost:5173`.
 
 ## Usage
 
 1. Register a new account
-2. Login with your credentials
-3. Create, edit, and delete notes
-4. Logout when done
+2. Log in with your credentials
+3. Create, edit, and delete notes as needed
+4. Log out when finished
 
 ## License
 
@@ -89,6 +95,6 @@ MIT License
 
 ## Author
 
-Kaung Thanlwin Kyaw
-GitHub: @Leneion405
-Email: kaungthanlwinkyaw@gmail.com
+Kaung Thanlwin Kyaw  
+GitHub: [@Leneion405](https://github.com/Leneion405)  
+Email: [kaungthanlwinkyaw@gmail.com](mailto:kaungthanlwinkyaw@gmail.com)
