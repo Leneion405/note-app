@@ -46,9 +46,11 @@ A full-stack note-taking application built with React, Express, and MongoDB.
    cd note-app-backend
 
 2. Install dependencies:
+
    npm install
 
-3. Create .env file with:
+4. Create .env file with:
+   
    MONGODB_URI=mongodb://localhost:27017/notes-app
    
    JWT_SECRET=your_secret_key
